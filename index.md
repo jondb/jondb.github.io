@@ -10,7 +10,7 @@
 
 ### Resume
 
-- [Resume](https://linkedin.com/in/jondebonis)
+- [Resume](resume.md)
 
 
 

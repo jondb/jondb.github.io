@@ -1,0 +1,501 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Lato;
+	panose-1:2 15 5 2 2 2 4 3 2 3;}
+@font-face
+	{font-family:"Neuton Light";
+	panose-1:0 0 4 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Neuton;
+	panose-1:0 0 5 0 0 0 0 0 0 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"Header Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"Footer Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.subhead1, li.subhead1, div.subhead1
+	{mso-style-name:subhead1;
+	margin-top:3.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:Neuton;
+	color:#111111;}
+p.head2, li.head2, div.head2
+	{mso-style-name:head2;
+	margin-top:3.0pt;
+	margin-right:0in;
+	margin-bottom:13.5pt;
+	margin-left:0in;
+	line-height:16.0pt;
+	border:none;
+	padding:0in;
+	font-size:10.0pt;
+	font-family:"Lato",sans-serif;
+	color:#111111;
+	font-weight:bold;}
+p.head1, li.head1, div.head1
+	{mso-style-name:head1;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:14.0pt;
+	font-family:"Lato",sans-serif;
+	color:#111111;
+	font-weight:bold;}
+p.bullet1, li.bullet1, div.bullet1
+	{mso-style-name:bullet1;
+	margin-top:3.0pt;
+	margin-right:0in;
+	margin-bottom:13.5pt;
+	margin-left:.25in;
+	text-indent:-.25in;
+	line-height:16.0pt;
+	font-size:12.0pt;
+	font-family:"Neuton Light";
+	color:#111111;}
+p.bullet1CxSpFirst, li.bullet1CxSpFirst, div.bullet1CxSpFirst
+	{mso-style-name:bullet1CxSpFirst;
+	margin-top:3.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.25in;
+	margin-bottom:.0001pt;
+	text-indent:-.25in;
+	line-height:16.0pt;
+	font-size:12.0pt;
+	font-family:"Neuton Light";
+	color:#111111;}
+p.bullet1CxSpMiddle, li.bullet1CxSpMiddle, div.bullet1CxSpMiddle
+	{mso-style-name:bullet1CxSpMiddle;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.25in;
+	margin-bottom:.0001pt;
+	text-indent:-.25in;
+	line-height:16.0pt;
+	font-size:12.0pt;
+	font-family:"Neuton Light";
+	color:#111111;}
+p.bullet1CxSpLast, li.bullet1CxSpLast, div.bullet1CxSpLast
+	{mso-style-name:bullet1CxSpLast;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:13.5pt;
+	margin-left:.25in;
+	text-indent:-.25in;
+	line-height:16.0pt;
+	font-size:12.0pt;
+	font-family:"Neuton Light";
+	color:#111111;}
+span.HeaderChar
+	{mso-style-name:"Header Char";
+	mso-style-link:Header;}
+span.FooterChar
+	{mso-style-name:"Footer Char";
+	mso-style-link:Footer;}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-US>
+
+<div class=WordSection1>
+
+<table class=MsoTableGrid border=0 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=138 valign=top style='width:103.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='line-height:16.0pt'><b><span style='font-family:
+  "Lato",sans-serif'>Jon Debonis</span></b></p>
+  <p class=MsoNormal style='line-height:16.0pt'><span style='font-family:"Neuton Light"'>Information
+  Security</span></p>
+  <p class=MsoNormal style='line-height:16.0pt'><span style='font-family:"Neuton Light"'>&nbsp;</span></p>
+  <div style='border:none;border-top:solid windowtext 1.0pt;padding:1.0pt 0in 0in 0in'>
+  <p class=head2 style='border:none;padding:0in'>Education</p>
+  </div>
+  <p class=subhead1><span style='font-family:"Neuton Light"'>BS Electrical Engineering
+  – UC Davis</span></p>
+  <p class=MsoNormal style='line-height:16.0pt'><span style='font-family:"Neuton Light"'>&nbsp;</span></p>
+  <div style='border:none;border-top:solid windowtext 1.0pt;padding:1.0pt 0in 0in 0in'>
+  <p class=head2>Languages</p>
+  </div>
+  <p class=MsoNormal><span style='font-family:"Neuton Light"'>Python</span></p>
+  <p class=MsoNormal><span style='font-family:"Neuton Light"'>Javascript</span></p>
+  <p class=MsoNormal><span style='font-family:"Neuton Light"'>Golang</span></p>
+  <p class=MsoNormal><span style='font-family:"Neuton Light"'>Bash</span></p>
+  <p class=MsoNormal><span style='font-family:Neuton'>&nbsp;</span></p>
+  <div style='border:none;border-top:solid windowtext 1.0pt;padding:1.0pt 0in 0in 0in'>
+  <p class=head2>Talks</p>
+  <p class=MsoNormal style='margin-top:3.0pt;margin-right:0in;margin-bottom:
+  13.5pt;margin-left:0in;line-height:16.0pt;vertical-align:baseline;border:
+  none;padding:0in'><span style='font-family:"Neuton Light";color:#111111'>BSides
+  SF – Presented on Peer code review in github<br>
+  <br>
+  FinTech – Panel on Information security after Equifax<br>
+  <br>
+  AppSec – Presented talk on Crypto anchors<br>
+  <br>
+  AppSec – Presented paper on using chromebooks to protect production</span></p>
+  <p class=MsoNormal style='margin-top:3.0pt;margin-right:0in;margin-bottom:
+  13.5pt;margin-left:0in;line-height:16.0pt;vertical-align:baseline;border:
+  none;padding:0in'><span style='font-family:"Neuton Light";color:#111111'>MBA
+  Tech – Moderated panel on Security and SaaS</span></p>
+  </div>
+  <p class=MsoNormal><span style='font-family:Neuton'>&nbsp;</span></p>
+  <div style='border:none;border-top:solid windowtext 1.0pt;padding:1.0pt 0in 0in 0in'>
+  <p class=head2>Noteworthy<br>
+  <br>
+  </p>
+  <p class=head2><span style='font-size:12.0pt;font-family:"Neuton Light";
+  font-weight:normal'>Obtained an FAA Pilots License</span></p>
+  <p class=head2><span style='font-size:12.0pt;font-family:"Neuton Light";
+  font-weight:normal'>Graduated High School two years early</span></p>
+  <p class=head2><span style='font-size:12.0pt;font-family:"Neuton Light";
+  font-weight:normal'>Worked through college</span></p>
+  <p class=head2><span style='font-size:12.0pt;font-family:"Neuton Light";
+  font-weight:normal'>Operated a home town computer repair service with clients
+  including the local paper, and Nielsen Media</span></p>
+  <p class=head2><span style='font-size:12.0pt;font-family:"Neuton Light";
+  font-weight:normal'>Spent three months traveling Europe for $50 per day</span></p>
+  <p class=head2><span style='font-size:12.0pt;font-family:"Neuton Light";
+  font-weight:normal'>Ran the concert production &amp; audio/visual for rock
+  bands in &gt;1,000 person congregations</span></p>
+  </div>
+  <p class=MsoNormal>&nbsp;</p>
+  <p class=MsoNormal>&nbsp;</p>
+  <p class=MsoNormal>&nbsp;</p>
+  <p class=MsoNormal>&nbsp;</p>
+  <p class=MsoNormal>&nbsp;</p>
+  <p class=MsoNormal>&nbsp;</p>
+  <p class=MsoNormal>&nbsp;</p>
+  <p class=MsoNormal>&nbsp;</p>
+  <p class=MsoNormal>&nbsp;</p>
+  <p class=MsoNormal>&nbsp;</p>
+  <div style='border:none;border-top:solid windowtext 1.0pt;padding:1.0pt 0in 0in 0in'>
+  <p class=head2>Hobbies</p>
+  <p class=head2><span style='font-size:12.0pt;font-family:"Neuton Light";
+  font-weight:normal'>Mountain biking in Lake Tahoe</span></p>
+  <p class=head2><span style='font-size:12.0pt;font-family:"Neuton Light";
+  font-weight:normal'>Rock climbed an ascent to half dome (not the cables)</span></p>
+  <p class=head2><span style='font-size:12.0pt;font-family:"Neuton Light";
+  font-weight:normal'>Woodworking including building a bed frame without
+  screws, using hand tools.</span></p>
+  <p class=head2><span style='font-size:12.0pt;font-family:"Neuton Light";
+  font-weight:normal'>Construction including kitchen remodel, framing,
+  landscaping, electrical, plumbing, and full house preparation for sale.</span></p>
+  <p class=head2><span style='font-size:12.0pt;font-family:"Neuton Light";
+  font-weight:normal'>Automotive - Rebuilt the head (top of engine with valves
+  and camshaft) on my Toyota truck..</span></p>
+  </div>
+  <p class=MsoNormal>&nbsp;</p>
+  </td>
+  <td width=474 valign=top style='width:355.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <div style='border:none;border-top:solid windowtext 1.0pt;padding:1.0pt 0in 0in 0in'>
+  <p class=MsoNormal style='margin-top:3.0pt;margin-right:0in;margin-bottom:
+  13.5pt;margin-left:0in;line-height:16.0pt;vertical-align:baseline;border:
+  none;padding:0in'><b><span style='font-size:10.0pt;font-family:"Lato",sans-serif;
+  color:#111111'>Experience</span></b></p>
+  </div>
+  <p class=MsoNormal style='vertical-align:baseline'><b><span style='font-size:
+  14.0pt;font-family:"Lato",sans-serif;color:#111111'>Head of Information
+  Security &amp; IT / CSO                    Blend</span></b></p>
+  <p class=subhead1>2014-present</p>
+  <p class=MsoNormal style='margin-top:3.0pt;margin-right:0in;margin-bottom:
+  13.5pt;margin-left:0in;line-height:16.0pt;vertical-align:baseline'><span
+  style='font-family:"Neuton Light";color:#111111'>As head of information security,
+  my responsibilities included structuring, building, and leading the security
+  organization. Being a startup, ruthless prioritization was required with an
+  initial focus on protecting customer data and core product and operational
+  security. The team consists of these five departments:<br>
+  <u>Security Operations </u>handle dev-ops work, log tooling, and incident
+  response. <br>
+  <u>Program Management </u>handle follow through on critical mulit-team
+  projects, and ensure tasks are tracked and completed across the entire
+  organization.<br>
+  <u>Security Policy</u> handle internal training, internal audit, customer
+  RFI, customer audit, certification audits, and vendor due diligence and
+  management. <br>
+  <u>Security Development</u> build software for the core product, internal
+  tools, and walks developers through the threat modeling process to make sure
+  all code is secure. <br>
+  <u>IT</u> handles all non-production technology needs for Blend.</span></p>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:3.0pt;margin-right:0in;
+  margin-bottom:13.5pt;margin-left:.25in;text-indent:-.25in;line-height:16.0pt;
+  vertical-align:baseline'><span style='font-family:"Lato",sans-serif;
+  color:#111111'>-<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span style='font-family:"Neuton Light";color:#111111'>Planned
+  the teams to scale as the company grew from 20 to 450 employees, 200
+  enterprise customers, and processing $2 billion in loans daily.</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:3.0pt;margin-right:
+  0in;margin-bottom:13.5pt;margin-left:.25in;text-indent:-.25in;line-height:
+  16.0pt;vertical-align:baseline'><span style='font-family:"Lato",sans-serif;
+  color:#111111'>-<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span style='font-family:"Neuton Light";color:#111111'>Hire,
+  define roles and responsibilities, manage performance, and coach over 30
+  employees on multiple teams in my organization.</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:3.0pt;margin-right:
+  0in;margin-bottom:13.5pt;margin-left:.25in;text-indent:-.25in;line-height:
+  16.0pt;vertical-align:baseline'><span style='font-family:"Lato",sans-serif;
+  color:#111111'>-<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span style='font-family:"Neuton Light";color:#111111'>Built
+  processes to continually assess risk and increase security efficiency at
+  Blend.</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:3.0pt;margin-right:
+  0in;margin-bottom:13.5pt;margin-left:.25in;text-indent:-.25in;line-height:
+  16.0pt;vertical-align:baseline'><span style='font-family:"Lato",sans-serif;
+  color:#111111'>-<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span style='font-family:"Neuton Light";color:#111111'>Reported
+  to the CEO and fostered positive relationships with and negotiated alignment
+  with the head of legal, the head of finance, and head of Engineering, head of
+  people operations, and the CEO.</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:3.0pt;margin-right:
+  0in;margin-bottom:13.5pt;margin-left:.25in;text-indent:-.25in;line-height:
+  16.0pt;vertical-align:baseline'><span style='font-family:"Lato",sans-serif;
+  color:#111111'>-<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span style='font-family:"Neuton Light";color:#111111'>Balanced
+  the need to reduce engineer friction with better security by leading internal
+  tool product management to build tools that make security simple.</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:3.0pt;margin-right:
+  0in;margin-bottom:13.5pt;margin-left:.25in;text-indent:-.25in;line-height:
+  16.0pt;vertical-align:baseline'><span style='font-family:"Lato",sans-serif;
+  color:#111111'>-<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span style='font-family:"Neuton Light";color:#111111'>Rewrote
+  the open source project send.firefox.com in ReactJS to add passphrase feature,
+  and deployed the technology for all sensitive information sharing at Blend.</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:3.0pt;margin-right:
+  0in;margin-bottom:13.5pt;margin-left:.25in;text-indent:-.25in;line-height:
+  16.0pt;vertical-align:baseline'><span style='font-family:"Lato",sans-serif;
+  color:#111111'>-<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span style='font-family:"Neuton Light";color:#111111'>Brought
+  Blend through ISO 27001, PCI, and SOC 2 Type 2 certifications and multiple
+  customer on site audits.</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:3.0pt;margin-right:0in;
+  margin-bottom:13.5pt;margin-left:.25in;text-indent:-.25in;line-height:16.0pt;
+  vertical-align:baseline'><span style='font-family:"Lato",sans-serif;
+  color:#111111'>-<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span><span style='font-family:"Neuton Light";color:#111111'>Aligned
+  closely with the head of infrastructure as it’s critical to security.</span></p>
+  <p class=head1><span style='font-family:"Neuton Light";font-weight:normal'>&nbsp;</span></p>
+  <p class=head1>Member of the Technical Steering Committee     SPIFFE</p>
+  <p class=MsoNoSpacing><span style='font-family:Neuton'>2016-2019</span></p>
+  <p class=MsoNormal><span style='font-family:"Neuton Light"'>SPIFFE is an open
+  source standard (IETF candidate) and implementation for cryptographically
+  secure, authenticated, server to server communication.</span></p>
+  <p class=bullet1CxSpFirst><span style='font-family:"Lato",sans-serif'>-<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span>One of 3 people invited to the Technical Steering Committee</p>
+  <p class=bullet1CxSpMiddle><span style='font-family:"Lato",sans-serif'>-<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span>Own the Amazon Web Services attestation integration group
+  resulting in code used in the AWS attester</p>
+  <p class=bullet1CxSpLast><span style='font-family:"Lato",sans-serif'>-<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span>Helped launch and define the open source project </p>
+  <p class=head1>Head of API Development and Infrastructure            Trov</p>
+  <p class=subhead1>2012-2014</p>
+  <p class=bullet1CxSpFirst><span style='font-family:"Lato",sans-serif'>-<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span>Hired and developed employees</p>
+  <p class=bullet1CxSpMiddle><span style='font-family:"Lato",sans-serif'>-<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span>Defined the architecture for a global HA mobile application
+  service</p>
+  <p class=bullet1CxSpMiddle><span style='font-family:"Lato",sans-serif'>-<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span>Lead the team of seven backend developers who built the API
+  that powers the next generation of per-item insurance</p>
+  <p class=bullet1CxSpMiddle><span style='font-family:"Lato",sans-serif'>-<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span>Developed specs for iPhone and insurance integration APIs </p>
+  <p class=bullet1CxSpMiddle><span style='font-family:"Lato",sans-serif'>-<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span>Designed the authentication and authorization architecture</p>
+  <p class=bullet1CxSpMiddle><span style='font-family:"Lato",sans-serif'>-<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span>Built out secure development lifecycle and performed security
+  code reviews</p>
+  <p class=bullet1CxSpLast><span style='font-family:"Lato",sans-serif'>-<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span>Setup the ISO 27001 certification program and got Trov
+  certified</p>
+  <p class=head1>Engineering                                                                           Google</p>
+  <p class=subhead1>2011-2012</p>
+  <p class=bullet1CxSpFirst><span style='font-family:"Lato",sans-serif'>-<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span>Increased the support team’s efficiency by writing a frontend
+  to the salesforce email, ticket, and notes objects combining the support
+  history into an easy to digest single view. Still in use today backing the
+  google apps support teams.</p>
+  <p class=bullet1CxSpMiddle><span style='font-family:"Lato",sans-serif'>-<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span>Worked with google.org on a project on renewable energy with
+  the goal of eliminating inefficient generation stations by reducing grid load
+  during peak usage periods.</p>
+  <p class=bullet1CxSpLast><span style='font-family:"Lato",sans-serif'>-<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span>Reduced high latency communications problem affecting 25% of
+  all requests to google by identifying a long-standing bug in the global DNS
+  system responsible for choosing the servers closest to the users.</p>
+  <p class=head1>Network Security Manager                  Kaiser Permanente</p>
+  <p class=subhead1>2007-2011</p>
+  <p class=bullet1CxSpFirst><span style='font-family:"Lato",sans-serif'>-<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span>Developed a python tool to automate scheduling and tracking the
+  remediation efforts required to locate and disable wireless access points
+  connected to the production network. This tool eliminated head count
+  requirements.</p>
+  <p class=bullet1CxSpMiddle><span style='font-family:"Lato",sans-serif'>-<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span>Identified and stopped data exfiltration attempts by analyzing
+  all outbound network traffic and building models to categorize health care
+  critical traffic and non-critical traffic.</p>
+  <p class=bullet1CxSpLast><span style='font-family:"Lato",sans-serif'>-<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span>Ran the network security team of eight.</p>
+  <p class=head1>Developer and Network Engineer         Wells Fargo Bank</p>
+  <p class=subhead1>2004-2005</p>
+  <p class=bullet1><span style='font-family:"Lato",sans-serif'>-<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </span></span>Eliminated 5 head count by automating a complex network
+  reconfiguration project across 7000 branches. This was achieved because I built
+  a perl tool to connect to the network management database, ingest an excel
+  spreadsheet, and execute a series of complicated network connections to change
+  IP addresses, update routing protocols, and migrate to new frame relay
+  circuits. We could update 100 devices in 5 minutes that required 750
+  different connections with one employee.</p>
+  <p class=subhead1>&nbsp;</p>
+  <div style='border:none;border-top:solid windowtext 1.0pt;padding:1.0pt 0in 0in 0in'>
+  <p class=head2 style='border:none;padding:0in'>Other Work Experience</p>
+  <p class=head2 style='margin-bottom:3.0pt;border:none;padding:0in'><span
+  style='font-size:12.0pt;font-family:"Neuton Light";font-weight:normal'>2003
+  -2007 – Completed electrical engineering degree from UC Davis</span></p>
+  <p class=head2 style='margin-bottom:3.0pt;border:none;padding:0in'><span
+  style='font-size:12.0pt;font-family:"Neuton Light";font-weight:normal'>2005-2007
+  – Semphonic – Security Engineer Contract</span></p>
+  <p class=head2 style='margin-bottom:3.0pt;border:none;padding:0in'><span
+  style='font-size:12.0pt;font-family:"Neuton Light";font-weight:normal'>2004-2005
+  – Wells Fargo Bank – Developer &amp; Network Engineer</span></p>
+  <p class=head2 style='margin-bottom:3.0pt;border:none;padding:0in'><span
+  style='font-size:12.0pt;font-family:"Neuton Light";font-weight:normal'>2003-2004
+  – Healthnet – Network Security</span></p>
+  <p class=head2 style='margin-bottom:3.0pt;border:none;padding:0in'><span
+  style='font-size:12.0pt;font-family:"Neuton Light";font-weight:normal'>2002-2003
+  – Northpoint – Network Engineer</span></p>
+  <p class=head2 style='margin-bottom:3.0pt;border:none;padding:0in'><span
+  style='font-size:12.0pt;font-family:"Neuton Light";font-weight:normal'>2001-2002
+  – Bankserv – IT and Network</span></p>
+  <p class=head2 style='margin-bottom:3.0pt;border:none;padding:0in'><span
+  style='font-size:12.0pt;font-family:"Neuton Light";font-weight:normal'>2000-2001
+  – AMS – IT and Network</span></p>
+  <p class=head2 style='margin-bottom:3.0pt;border:none;padding:0in'><span
+  style='font-size:12.0pt;font-family:"Neuton Light";font-weight:normal'>1998-2000
+  – C&amp;D Computers – IT and Network</span></p>
+  <p class=head2 style='margin-bottom:3.0pt;border:none;padding:0in'><span
+  style='font-size:12.0pt;font-family:"Neuton Light";font-weight:normal'>1996-1998
+  – AB.C Music – Electronics and Audio Video Technician</span></p>
+  </div>
+  <p class=MsoNormal>&nbsp;</p>
+  </td>
+ </tr>
+ <tr>
+  <td width=138 valign=top style='width:103.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>&nbsp;</p>
+  </td>
+  <td width=474 valign=top style='width:355.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>&nbsp;</p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+</div>
+
+</body>
+
+</html>
