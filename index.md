@@ -10,7 +10,7 @@
 
 ### Resume
 
-- [Resume](resume.md)
+- [Resume](https://www.jondebonis.com/assets/resume.html)
 
 
 
